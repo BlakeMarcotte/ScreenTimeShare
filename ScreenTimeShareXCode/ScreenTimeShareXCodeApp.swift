@@ -6,9 +6,16 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct ScreenTimeShareXCodeApp: App {
+
+    init() {
+        // Configure Firebase
+        FirebaseApp.configure()
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()

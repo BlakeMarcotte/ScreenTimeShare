@@ -11,6 +11,21 @@
 		F391E7CE2EA8813500B38BB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F391E7CD2EA8813500B38BB1 /* ContentView.swift */; };
 		F391E7D02EA8813500B38BB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F391E7CF2EA8813500B38BB1 /* Assets.xcassets */; };
 		F391E7D32EA8813500B38BB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F391E7D22EA8813500B38BB1 /* Preview Assets.xcassets */; };
+		F391E82B2EA8848E00B38BB1 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F391E8192EA8848E00B38BB1 /* AuthViewModel.swift */; };
+		F391E82C2EA8848E00B38BB1 /* ScreenTimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F391E81A2EA8848E00B38BB1 /* ScreenTimeViewModel.swift */; };
+		F391E82D2EA8848E00B38BB1 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F391E81C2EA8848E00B38BB1 /* DashboardView.swift */; };
+		F391E82E2EA8848E00B38BB1 /* GroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F391E81D2EA8848E00B38BB1 /* GroupDetailView.swift */; };
+		F391E82F2EA8848E00B38BB1 /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F391E81E2EA8848E00B38BB1 /* GroupsView.swift */; };
+		F391E8302EA8848E00B38BB1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F391E81F2EA8848E00B38BB1 /* HomeView.swift */; };
+		F391E8312EA8848E00B38BB1 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F391E8202EA8848E00B38BB1 /* LeaderboardView.swift */; };
+		F391E8322EA8848E00B38BB1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F391E8212EA8848E00B38BB1 /* LoginView.swift */; };
+		F391E8332EA8848E00B38BB1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F391E8222EA8848E00B38BB1 /* ProfileView.swift */; };
+		F391E8342EA8848E00B38BB1 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = F391E8242EA8848E00B38BB1 /* Group.swift */; };
+		F391E8352EA8848E00B38BB1 /* ScreenTimeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F391E8252EA8848E00B38BB1 /* ScreenTimeData.swift */; };
+		F391E8362EA8848E00B38BB1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F391E8262EA8848E00B38BB1 /* User.swift */; };
+		F391E8372EA8848E00B38BB1 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F391E8282EA8848E00B38BB1 /* FirebaseService.swift */; };
+		F391E8382EA8848E00B38BB1 /* ScreenTimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F391E8292EA8848E00B38BB1 /* ScreenTimeService.swift */; };
+		F391E83F2EA8892400B38BB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F391E83E2EA8892400B38BB1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +34,21 @@
 		F391E7CD2EA8813500B38BB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F391E7CF2EA8813500B38BB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F391E7D22EA8813500B38BB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F391E8192EA8848E00B38BB1 /* AuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		F391E81A2EA8848E00B38BB1 /* ScreenTimeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenTimeViewModel.swift; sourceTree = "<group>"; };
+		F391E81C2EA8848E00B38BB1 /* DashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		F391E81D2EA8848E00B38BB1 /* GroupDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupDetailView.swift; sourceTree = "<group>"; };
+		F391E81E2EA8848E00B38BB1 /* GroupsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
+		F391E81F2EA8848E00B38BB1 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F391E8202EA8848E00B38BB1 /* LeaderboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		F391E8212EA8848E00B38BB1 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F391E8222EA8848E00B38BB1 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F391E8242EA8848E00B38BB1 /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		F391E8252EA8848E00B38BB1 /* ScreenTimeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenTimeData.swift; sourceTree = "<group>"; };
+		F391E8262EA8848E00B38BB1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F391E8282EA8848E00B38BB1 /* FirebaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		F391E8292EA8848E00B38BB1 /* ScreenTimeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenTimeService.swift; sourceTree = "<group>"; };
+		F391E83E2EA8892400B38BB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +81,12 @@
 		F391E7CA2EA8813500B38BB1 /* ScreenTimeShareXCode */ = {
 			isa = PBXGroup;
 			children = (
+				F391E8272EA8848E00B38BB1 /* Models */,
+				F391E82A2EA8848E00B38BB1 /* Services */,
+				F391E81B2EA8848E00B38BB1 /* ViewModels */,
+				F391E8232EA8848E00B38BB1 /* Views */,
 				F391E7CB2EA8813500B38BB1 /* ScreenTimeShareXCodeApp.swift */,
+				F391E83E2EA8892400B38BB1 /* GoogleService-Info.plist */,
 				F391E7CD2EA8813500B38BB1 /* ContentView.swift */,
 				F391E7CF2EA8813500B38BB1 /* Assets.xcassets */,
 				F391E7D12EA8813500B38BB1 /* Preview Content */,
@@ -65,6 +100,48 @@
 				F391E7D22EA8813500B38BB1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F391E81B2EA8848E00B38BB1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F391E8192EA8848E00B38BB1 /* AuthViewModel.swift */,
+				F391E81A2EA8848E00B38BB1 /* ScreenTimeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F391E8232EA8848E00B38BB1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F391E81C2EA8848E00B38BB1 /* DashboardView.swift */,
+				F391E81D2EA8848E00B38BB1 /* GroupDetailView.swift */,
+				F391E81E2EA8848E00B38BB1 /* GroupsView.swift */,
+				F391E81F2EA8848E00B38BB1 /* HomeView.swift */,
+				F391E8202EA8848E00B38BB1 /* LeaderboardView.swift */,
+				F391E8212EA8848E00B38BB1 /* LoginView.swift */,
+				F391E8222EA8848E00B38BB1 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F391E8272EA8848E00B38BB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F391E8242EA8848E00B38BB1 /* Group.swift */,
+				F391E8252EA8848E00B38BB1 /* ScreenTimeData.swift */,
+				F391E8262EA8848E00B38BB1 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F391E82A2EA8848E00B38BB1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F391E8282EA8848E00B38BB1 /* FirebaseService.swift */,
+				F391E8292EA8848E00B38BB1 /* ScreenTimeService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +188,9 @@
 				Base,
 			);
 			mainGroup = F391E7BF2EA8813500B38BB1;
+			packageReferences = (
+				F391E83D2EA8882B00B38BB1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = F391E7C92EA8813500B38BB1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F391E7D32EA8813500B38BB1 /* Preview Assets.xcassets in Resources */,
+				F391E83F2EA8892400B38BB1 /* GoogleService-Info.plist in Resources */,
 				F391E7D02EA8813500B38BB1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +219,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				F391E7CE2EA8813500B38BB1 /* ContentView.swift in Sources */,
+				F391E8372EA8848E00B38BB1 /* FirebaseService.swift in Sources */,
+				F391E8382EA8848E00B38BB1 /* ScreenTimeService.swift in Sources */,
 				F391E7CC2EA8813500B38BB1 /* ScreenTimeShareXCodeApp.swift in Sources */,
+				F391E82D2EA8848E00B38BB1 /* DashboardView.swift in Sources */,
+				F391E8342EA8848E00B38BB1 /* Group.swift in Sources */,
+				F391E82B2EA8848E00B38BB1 /* AuthViewModel.swift in Sources */,
+				F391E8312EA8848E00B38BB1 /* LeaderboardView.swift in Sources */,
+				F391E8362EA8848E00B38BB1 /* User.swift in Sources */,
+				F391E82C2EA8848E00B38BB1 /* ScreenTimeViewModel.swift in Sources */,
+				F391E8352EA8848E00B38BB1 /* ScreenTimeData.swift in Sources */,
+				F391E8302EA8848E00B38BB1 /* HomeView.swift in Sources */,
+				F391E82F2EA8848E00B38BB1 /* GroupsView.swift in Sources */,
+				F391E8322EA8848E00B38BB1 /* LoginView.swift in Sources */,
+				F391E8332EA8848E00B38BB1 /* ProfileView.swift in Sources */,
+				F391E82E2EA8848E00B38BB1 /* GroupDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +370,7 @@
 				DEVELOPMENT_TEAM = A649V5FJ5M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenTimeShareXCode/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +400,7 @@
 				DEVELOPMENT_TEAM = A649V5FJ5M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenTimeShareXCode/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +441,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F391E83D2EA8882B00B38BB1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = F391E7C02EA8813500B38BB1 /* Project object */;
 }
